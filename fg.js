@@ -629,9 +629,9 @@ infobot =`⊷ *BOT*
 ▢ Instagram :
 https://instagram.com/mandioka_postin?utm_medium=copy_link
 ▢ BASE :
-
+https://github.com/Carlos818e/Carlos.git
 ▢ DUEÑO :
-https://github.com/FG98F`
+_Carlos Duarte_🇵🇾
 mentions(infobot, [fgnum, crisnum], true)
 break
 
@@ -1394,7 +1394,7 @@ anug = await imgbb2("20a14861e4f7591f3dc52649cb07ae02", './stickgay.jpeg')
 txtg = `${anug.display_url}`
 sgay = await getBuffer(`https://pecundang.herokuapp.com/api/gay?url=${txtg}`)
 const bas642 = `data:image/jpeg;base64,${sgay.toString('base64')}`
-var mantap2 = await convertSticker(bas642, `💎 @fg98._`, `🔮 DyLux ┃ ᴮᴼᵀ`)
+var mantap2 = await convertSticker(bas642, `Carlos_duartex`, 'mandioka_postin ┃ ᴮᴼᵀ`)
 var imageBuffer2 = new Buffer.from(mantap2, 'base64');
 Fg.sendMessage(from, imageBuffer2, sticker, {quoted: mek})
 fs.unlinkSync('./stickgay.jpeg')
@@ -1417,7 +1417,7 @@ anur = await imgbb2r("20a14861e4f7591f3dc52649cb07ae02", './stickrip.jpeg')
 txtr = `${anur.display_url}`
 srip = await getBuffer(`https://pecundang.herokuapp.com/api/rip?url=${txtr}`)
 const bas642r = `data:image/jpeg;base64,${srip.toString('base64')}`
-var mantap2r = await convertSticker(bas642r, `💎 @fg98._`, `🔮 DyLux ┃ ᴮᴼᵀ`)
+var mantap2r = await convertSticker(bas642r, `Carlos_duartex`, `mandioka_postin ┃ ᴮᴼᵀ`)
 var imageBuffer2r = new Buffer.from(mantap2r, 'base64');
 Fg.sendMessage(from, imageBuffer2r, sticker, {quoted: mek})
 fs.unlinkSync('./stickrip.jpeg')
@@ -1471,7 +1471,7 @@ anuc = await imgbb2c("20a14861e4f7591f3dc52649cb07ae02", './stickc.jpeg')
 txtc = `${anuc.display_url}`
 sc = await getBuffer(`https://pecundang.herokuapp.com/api/jail?url=${txtc}`)
 const bas642c = `data:image/jpeg;base64,${sc.toString('base64')}`
-var mantap2c = await convertSticker(bas642c, `💎 @fg98._`, `🔮 DyLux ┃ ᴮᴼᵀ`)
+var mantap2c = await convertSticker(bas642c, `Carlos_duartex`, `mandioka_postin ┃ ᴮᴼᵀ`)
 var imageBuffer2c = new Buffer.from(mantap2c, 'base64');
 Fg.sendMessage(from, imageBuffer2c, sticker, {quoted: mek})
 fs.unlinkSync('./stickc.jpeg')
@@ -1777,7 +1777,7 @@ if (args.length < 1) return reply(`✳️ Ejemplo : ${prefix + command} Lil Peep
 					case 'ytstalk':
 					if (!isVerify) return reply(userB(prefix))
                      if (isBanned) return reply(banf())
-                  if (args.length < 1) return reply(`✳️ Ingrese un nombre del canal \n\n📌 Ejemplo : *${prefix + command}* Lil Peep`)  
+                  if (args.length < 1) return reply(`✳️ Ingrese un nombre del canal \n\n📌 Ejemplo : *${prefix + command}* Kchiporros')  
                      reply(wait())
 					ytk = q
 					anu = await fetchJson(`http://api.lolhuman.xyz/api/ytchannel?apikey=${lolkey}&query=${ytk}`, {method: 'get'})
@@ -2304,8 +2304,8 @@ case 'sgif':
                 .extendedTextMessage.contextInfo
             : mek;
           const media = await Fg.downloadAndSaveMediaMessage(encmedia);
-        var a = 'FG98'
-        var b = 'DyLux v4'
+        var a ='Carlos_duartex'
+        var b = 'Mandioka_postin'
           await createExif(a, b);
           out = getRandom(".webp");
           ffmpeg(media)
@@ -2569,7 +2569,7 @@ break
       default:
  
                  if (budy.includes(`Gracias bot`)) {
-                  replyfg(`De nada 😊 estoy para ayudarte`)
+                  replyfg(`De nada estoy para ayudarte kp🤙🇵🇾`)
                   }
 				
 //-------------------------------------///---------------------------//----------
