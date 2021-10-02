@@ -623,26 +623,13 @@ infobot =`⊷ *BOT*
 ▢ Velocidad : *${latensi2.toFixed(4)}*
 ▢ Tiempo Ejecucion : *${kyun(runtime2)}*
 ▢ Version Wha : ${Fg.user.phone.wa_version}
-▢ Grupo del Bot : 
-*${soportefg}*
+
 
 ⊷ *AGRADECIMIENTOS* ⊶
-▢ *FG98* :
-@${fgnum.split("@")[0]}
-_*Diseñador del bot*_
-_*Fb*_ : facebook.com/fg98A
-_*Fb*_ : facebook.com/fg98ff
-▢ *CRISS* :
-@${crisnum.split("@")[0]}
-_*Ayudante de alguno de los camandos*_
-_*Ig*_ : instagram.com/sayurizuniga3
-▢ *Mi Gato* :
-_*:)*_
-
 ▢ Instagram :
-https://www.instagram.com/fg98._
+https://instagram.com/mandioka_postin?utm_medium=copy_link
 ▢ BASE :
-https://github.com/FG98F/fgbotv3
+
 ▢ DUEÑO :
 https://github.com/FG98F`
 mentions(infobot, [fgnum, crisnum], true)
